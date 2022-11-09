@@ -31,3 +31,28 @@ the reader and writers.
 ____
 What if there are more readers than writers? well, it is not covered here.
 ```
+_____
+## How to Run the program?
+```
+=> I have provided the MAkefile as well so you can directly run the program without compiling it using following commands:
+To execute part1, run following command:
+./rw_part1 10 3
+
+To execute part2, run following command:
+./rw_part2 1 10
+
+---
+Optionally if you want to compile it also, you can follow the below steps:
+
+Run the following command to compile program 1 namely rw_part1.cc
+g++ -o rw_part1 rw_part1.cc -lpthread
+Run the following command to compile program 2 namely rw_part2.cc
+g++ -o rw_part2 rw_part2.cc -lpthread
+
+To execute part1, run following command:
+./rw_part1 10 3
+
+To execute part2, run following command:
+./rw_part2 1 10
+```
+**Compiled and Executed on Ubuntu 20.04**
